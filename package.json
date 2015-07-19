@@ -1,11 +1,17 @@
 {
   "name": "voidtrader",
   "version": "0.1.0",
-  "main": "electron.js",
+  "main": "js/electron.js",
   "description": "A space trading game by Mitchell R.K. Shelton.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Mitchell R.K. Shelton",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2"
+  }
 }
