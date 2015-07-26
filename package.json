@@ -1,7 +1,7 @@
 {
   "name": "voidtrader",
   "version": "0.1.0",
-  "main": "js/electron.js",
+  "main": "electron.js",
   "description": "A space trading game by Mitchell R.K. Shelton.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

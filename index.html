@@ -1,11 +1,20 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World! DID IT BUILD? Change a thing?</h1>
-    We are using io.js <script>document.write(process.version)</script>
-    and Electron <script>document.write(process.versions['electron'])</script>.
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Void Trader</title>
+</head>
+<body>
+
+  <h1>Void Trader</h1>
+  <!-- external template -->
+  <script id="gamescreenTemplate" type="text/template">
+    <h1><%= title %></h1>
+    <p><%= description %></p>
+    <button class="edit">Edit</button>
+    <button class="delete">Delete</button>
+  </script>
+
+  <script data-main="js/script" src="js/require.js"></script>
+</body>
 </html>
